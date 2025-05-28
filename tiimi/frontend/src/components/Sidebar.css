@@ -1,0 +1,97 @@
+.sidebar {
+  width: 60px;
+  height: 100vh;
+  background-color: white;
+  border-right: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 0;
+  box-shadow: 2px 0 6px rgba(0, 0, 0, 0.05);
+  position: fixed;
+  left: 0;
+  top: 50px;
+  z-index: 1000;
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+  background-color: #6366f1;
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu-btn {
+  background: none;
+  border: none;
+  color: #777;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 8px;
+  transition: all 0.2s ease-in-out;
+}
+
+.menu-btn:hover,
+.menu-btn.active {
+  background-color: #f0f4ff;
+  color: #0e1114;
+}
+
+.bottom-help {
+  margin-top: auto;
+  margin-bottom: 40px;
+}
+
+.help-btn {
+  background: none;
+  border: none;
+  color: #bbb;
+  cursor: pointer;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 16px;
+  transition: color 0.2s;
+}
+
+.help-btn:hover {
+  background-color: #f4f6fe;
+  color: #0e1114;
+}
+
+.menu-divider {
+  height: 1px;
+  background-color: #bbb;
+  width: 40px;
+  margin: 8px auto;
+  border: none;
+}
+
+.menu {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  width: 100%;
+}
+
+.menu-btn {
+  background: none;
+  border: none;
+  color: #777;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 8px;
+  transition: all 0.2s ease-in-out;
+  margin: 0 auto;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,130 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 28px;
+  background-color: #1D1F2A;
+  border-bottom: 1px solid #e5e7eb;
+  height: 50px;
+  z-index: 1000;
+  width: max-content; 
+  min-width: 100%;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.logo {
+  height: 36px;
+  width: 76px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 550;
+  color: #ffffff;
+  margin-left: 4px;
+}
+
+.nav {
+  display: flex;
+  gap: 32px;
+  font-size: 14px;
+  color: #ffffff;
+  align-items: center;
+}
+
+.navItem {
+  position: relative;
+  cursor: pointer;
+  font-weight: 500;
+  background-color: #343846;
+  padding: 6px;
+  border-radius: 10%;
+}
+
+.navItem:hover {
+  color: #93c5fd;
+}
+
+.icon:hover,
+.profileIcon:hover {
+  color: #93c5fd;
+  transform: scale(1.1);
+  transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.jobCount,
+.candidateBadge {
+  background-color: #ef4444;
+  color: #ffffff;
+  border-radius: 9999px;
+  padding: 2px 8px;
+  font-size: 12px;
+  font-weight: 600;
+  margin-left: 6px;
+  vertical-align: middle;
+}
+
+.right {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.plusIcon {
+  font-size: 26px;
+  color: #000;
+  background-color: #F7D855;
+  padding: 5px;
+  border-radius: 10%;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.icon {
+  font-size: 26px;
+  color: #ffffff;
+  background-color: #343846;
+  padding: 5px;
+  border-radius: 15%;
+  cursor: pointer;
+}
+
+.profileContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-left: 8px;
+}
+
+.profilePicture {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #F7D855;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.profilePicture:hover {
+  transform: scale(1.1);
+}
+
+.profileName {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+/*
+.profileIcon {
+  font-size: 24px;
+  color: #ffffff;
+  cursor: pointer;
+}
+  */  

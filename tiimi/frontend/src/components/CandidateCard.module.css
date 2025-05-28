@@ -1,0 +1,173 @@
+.card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  border-left: 4px solid transparent;
+  width: 300px;
+  min-height: 140px;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.card:active {
+  cursor: grabbing;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 12px;
+}
+
+.avatarPlaceholder {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #e2e8f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 12px;
+  font-weight: 600;
+  color: #64748b;
+}
+
+.info {
+  flex: 1;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+.appliedDate {
+  font-size: 12px;
+  color: #64748b;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.ratingContainer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.rating {
+  font-size: 12px;
+  color: #475569;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+}
+
+.referred {
+  font-size: 12px;
+  color: #16a34a;
+  font-weight: 500;
+}
+
+.addAssessment {
+  background: none;
+  border: none;
+  color: #3a9952;
+  padding: 6px 8px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  padding-top: 20px;
+}
+
+.addAssessment:hover {
+  background-color: #f8fafc;
+}
+
+.assessmentForm {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+}
+
+.ratingInput {
+  padding: 4px;
+  border: 1px solid #cbd5e1;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+.referredCheckbox {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 12px;
+  color: #475569;
+}
+
+.submitButton {
+  background-color: #3b82f6;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 4px 8px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.submitButton:hover {
+  background-color: #2563eb;
+}
+
+.scrollable {
+  max-height: 70vh;
+  overflow-y: auto;
+  padding-right: 8px;
+}
+
+.scrollable::-webkit-scrollbar {
+  width: 6px;
+}
+
+.scrollable::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 3px;
+}
+
+.scrollable::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 3px;
+}
+
+.scrollable::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+.divider {
+  height: 1px;
+  background-color: #e2e8f0;
+  margin: 4px 0;
+}
